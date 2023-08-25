@@ -1,0 +1,43 @@
+.Icon {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  width: 48px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.Icon-check {
+  position: absolute;
+  left: 8px;
+}
+
+.Icon-unchecked {
+  position: absolute;
+  left: 8px;
+}
+.Icon-check--active {
+  color: #4caf50;
+}
+
+.Icon-check--inactive {
+  color: teal;
+}
+
+.Icon-delete {
+  position: absolute;
+  top: -12px;
+  right: 0;
+}
+.Icon-delete:hover {
+  fill: red;
+}
+
+.Icon-svg:hover {
+  fill: lawngreen;
+}
+
+.Icon-svg-delete:hover {
+  fill: red;
+}
